@@ -5,6 +5,8 @@ Tools to parse and analyze Virginia Department of Health restaurant inspection r
 
 This data is presently available at http://www.healthspace.com/Clients/VDH/vdh_website.nsf, though not in bulk or in any machine-readable format. This project is awaiting a bulk release of this data from the Virginia Department of Health.
 
+A pair of sample files are available. They were provided in response to a FOIA request for a complete dump of all records for a single Department of Health district for one year. A single Excel file was provided, with data in two worksheets. Each of those worksheets is provided as a CSV file, titled as the worksheet was titled: FoodInspection.csv and CombInspWithViolationsLong.csv. The bulk data provided by VDH is likely to resemble substantially these files.
+
 Planned tasks:
 
 * Create a parser to for the provided data to (inevitably) turn it into friendlier formats—JSON, XML, YAML, etc.

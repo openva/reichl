@@ -12,5 +12,6 @@ Planned tasks:
 * Create a parser to for the provided data to (inevitably) turn it into friendlier formats—JSON, XML, YAML, etc.
 * Install repository software ([CKAN](http://ckan.org/)?) to host the data, display it on screen, and provide an API.
 * Write an algorithm to analyze inspection data and assign some kind of a quantitative indicator of the restaurant's cleanliness. (Virginia does not grade or otherwise rank restaurants, making this a useful function.)
+* Create an exporter to render data [per Yelp's specs](http://www.yelp.com/healthscores), and syndicate inspection data to Yelp.
 
 Pronounced RYE-chil.
